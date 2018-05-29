@@ -23,6 +23,11 @@
         <link rel='stylesheet' href='css/template-color.css' type='text/css' media='all'/>
         <link rel='stylesheet' href='css/woocommerce.css' type='text/css' media='all'/>
         <link rel='stylesheet' href='css/responsive.css' type='text/css' media='all'/>
+        <!-- Bootstrap core CSS -->
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Font Awesome Icons -->
+        <link href="assets/css/font-awesome/css/font-awesome.min.css" rel="stylesheet">
     </head>
 
     <body class="home page-template-default page frontpage scheme_default blog_mode_home body_style_wide blog_style_excerpt expand_content remove_margins no_layout">
@@ -284,48 +289,63 @@
                         <div class="content">
                             <article class="post_item_single post_type_page page type-page">
                                 <div id="content-section" class="post_content entry-content">
-                                    <section id="slider">
-                                        <div class="content_container">
-                                            <div class="column_row">
-                                                <div class="column_container column-1_1 sc_layouts_column_icons_position_left">
-                                                    <div class="column-inner">
-                                                        <div id="mainslider_1" class="rev_slider_wrapper fullwidthbanner-container rev_slider_global slider_alias_rsl1" data-source="gallery" >
-                                                            <!-- START REVOLUTION SLIDER 5.3.0.2 fullwidth mode -->
-                                                            <div id="rev_slider_1_1" class="rev_slider fullwidthabanner d_none" data-version="5.3.0.2">
-                                                                <ul>
-                                                                    <!-- SLIDE  1-->
-                                                                    <li data-index="rs-1" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-thumb="images/slider_1_bg_1-100x50.jpg" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
-                                                                        <!-- MAIN IMAGE -->
+                                    <section>
+                                      <div id="corousal-div" class="container-fluid" style="padding-right: 0px!important; padding-left: 0px!important;">
+                                          <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                                              <ol class="carousel-indicators">
+                                                  <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                                                  <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                                                  <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                                              </ol>
+                                              <!-- Wrapper for slides -->
+                                              <div class="carousel-inner" role="listbox">
+                                                  <div class="item active deepskyblue">
+                                                      <img src="images/attractive-beauty-black-and-white-60708.jpg" alt="About us" style="width:100%;">
+                                                      <div class="carousel-caption d-none col-md-7">
+                                                        <div class="sc_action_item_inner" >
+                                                            <h3 class="sc_action_item_title" style='color:white!important;'><strong><span style='color:white!important;'>For The women In You! Coz Your’e Special And Unique</span></strong></h3>
 
-                                                                        <img src="images/attractive-beauty-black-and-white-60708.jpg" alt="" title="slider_1_bg_1" width="1170" height="652" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
-
-
-                                                                    </li>
-                                                                    <!-- SLIDE 2 -->
-                                                                    <li data-index="rs-2" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-thumb="images/slider_1_bg_2-100x50.jpg" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
-                                                                        <!-- MAIN IMAGE -->
-
-                                                                        <img src="images/adult-attractive-beautiful-366893.jpg" alt="" title="slider_1_bg_2" width="1170" height="652" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
-                                                                        <!-- LAYERS -->
-                                                                        <!-- LAYER NR. 1 -->
-
-                                                                    </li>
-                                                                    <!-- SLIDE  3-->
-                                                                    <li data-index="rs-4" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-thumb="images/slider_1_bg_3-100x50.jpg" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
-                                                                        <!-- MAIN IMAGE -->
-                                                                        <img src="images/adult-bra-breast-209680.jpg" alt="" title="slider_1_bg_3" width="1170" height="652" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
-
-                                                                    </li>
-                                                                </ul>
-                                                                <div class="tp-bannertimer tp-bottom vis_hid"></div>
-                                                            </div>
                                                         </div>
-                                                        <div class="empty_space h_30px"><span class="empty_space_inner"></span></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
+
+                                                      </div>
+                                                  </div>
+                                                  <div class="item deepskyblue">
+                                                      <img src="images/adult-attractive-beautiful-366893.jpg" alt="Contact us" style="width:100%;">
+                                                      <div class="carousel-caption d-none col-md-7">
+                                                        <div class="sc_action_item_inner" >
+                                                            <strong><h3 class="sc_action_item_title"><span style='color:white!important;'>Be Your Best Friend, Get Support, Get
+                                                                    Comfort, Get Wunderfit</span></h3>
+                                                            <div class="sc_action_item_description"><span style='color:white!important;'>fun and flirty pieces for a<br/></span><span style='color:white!important;'>seamless look</span></strong></div>
+                                                        </div>
+
+                                                      </div>
+
+                                                  </div>
+                                                  <div class="item" >
+                                                      <img class="img-responsive img-rounded" src="images/adult-bra-breast-209680.jpg" alt="New york" style="width:100%;">
+                                                      <div class="carousel-caption d-none col-md-7">
+                                                        <div class="text_column bg_white_with_spaces">
+                                                            <h2 class="fsz_2em m_0 fw_400 align_center"><a href="all.html"><b><span class="accent">Tangible Solutions for Real Women of the
+                                                                            Modern Era</span></b></a>
+                                                            </h2>
+                                                        </div>
+
+                                                      </div>
+                                                  </div>
+                                              </div>
+                                              <!-- Left and right controls -->
+                                              <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                                                  <span class="glyphicon glyphicon-chevron-left"></span>
+                                                  <span class="sr-only">Previous</span>
+                                              </a>
+                                              <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+                                                  <span class="glyphicon glyphicon-chevron-right"></span>
+                                                  <span class="sr-only">Next</span>
+                                              </a>
+                                          </div>
+                                      </div>
                                     </section>
+
                                     <section id="sexy thongs" class="margin_on">
                                         <div class="content_container">
                                             <div class="column_row">
@@ -337,9 +357,8 @@
                                                                     <div class="sc_action_item sc_action_item_default with_image sc_action_item_tl bg_promo-2">
                                                                         <div class="sc_action_item_mask"></div>
                                                                         <div class="sc_action_item_inner">
-                                                                            <h3 class="sc_action_item_title"><span>Be Your Best Friend, Get Support, Get
-                                                                                    Comfort, Get Wunderfit</span></h3>
-                                                                            <div class="sc_action_item_description"><span>fun and flirty pieces for a<br/></span><span>seamless look</span></div><a href="all.html" class="sc_action_item_link">browse</a>
+                                                                            <h3 class="sc_action_item_title"style="padding-left:30%"><span>love yourself</span></h3>
+
                                                                         </div>
                                                                         <!-- /.sc_action_item_inner -->
                                                                     </div>
@@ -349,9 +368,9 @@
                                                         </div>
                                                     </div><div class="extra_height column_container column-5_12 sc_layouts_column_icons_position_left scr_xs">
                                                         <div class="column-inner bg_banner">
-                                                            <div class="text_column bg_white_with_spaces">
-                                                                <h2 class="fsz_2em m_0 fw_400 align_center"><a href="all.html"><b><span class="accent">Tangible Solutions for Real Women of the
-                                                                                Modern Era</span></b></a>
+                                                            <div class="text_column bg_white_with_spaces" style="margin-bottom: 18%;" >
+
+                                                                <h2 class="fsz_2em m_0 fw_400 align_center"><a href="all.html"><b><span class="accent">For Today's Woman</span></b></a>
                                                                 </h2>
                                                             </div>
                                                         </div>
@@ -374,8 +393,8 @@
                                                             <div class="sc_promo_text w_50per f_right">
                                                                 <div class="sc_promo_text_inner sc_align_center bg_pink">
                                                                     <img class="top_promo_image" src="images/promo.png" alt="">
-                                                                    <h2 class="sc_item_title sc_promo_title sc_align_default sc_item_title_style_default">Lace<br />Bra</h2>
-                                                                    <div class="sc_item_descr sc_promo_descr sc_align_default">embrace yourself<br />modern pin-up</div>
+                                                                    <h2 class="sc_item_title sc_promo_title sc_align_default sc_item_title_style_default"style="font-size: 2em;">Designed For Your body</h2>
+                                                                    <div class="sc_item_descr sc_promo_descr sc_align_default">designed for your dreams</div>
                                                                     <div class="sc_item_button sc_item_button_simple sc_promo_button sc_align_default sc_button_wrap">
                                                                         <a href="all.html" class="sc_button sc_button_simple sc_button_size_normal sc_button_icon_left">
                                                                             <span class="sc_button_text"><span class="sc_button_title">shop now</span></span><!-- /.sc_button_text -->
@@ -692,7 +711,8 @@
                 </div>
             </div>
         </div>
-
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
         <script type='text/javascript' src='js/vendor/jquery-3.2.1.min.js'></script>
         <script type='text/javascript' src='js/vendor/jquery-migrate.min.js'></script>
         <script type='text/javascript' src='js/vendor/skip-link-focus-fix.js'></script>
