@@ -16,7 +16,7 @@
 14. Logo JS
 15. Search JS
 16. Skills JS
-17. Chart JS 
+17. Chart JS
 18. Google Map JS
 19. Anchor JS
 */
@@ -99,11 +99,11 @@ function trx_addons_login_validate(form) {
             var result = form.find(".trx_addons_message_box").toggleClass("trx_addons_message_box_error", false).toggleClass("trx_addons_message_box_success", false);
             if (rez.error === '') {
                 result.addClass("trx_addons_message_box_success").html(TRX_ADDONS_STORAGE['msg_login_success']);
-                setTimeout(function() { 
+                setTimeout(function() {
                     if (rez.redirect_to != '') {
                         location.href = rez.redirect_to;
                     } else {
-                        location.reload(); 
+                        location.reload();
                     }
                 }, 3000);
             } else {
@@ -116,7 +116,7 @@ function trx_addons_login_validate(form) {
 }
 
 
-// Registration form 
+// Registration form
 function trx_addons_registration_validate(form) {
     "use strict";
     form.find('input').removeClass('trx_addons_field_error');
@@ -169,11 +169,11 @@ function trx_addons_registration_validate(form) {
             var result = form.find(".trx_addons_message_box").toggleClass("trx_addons_message_box_error", false).toggleClass("trx_addons_message_box_success", false);
             if (rez.error === '') {
                 result.addClass("trx_addons_message_box_success").html(TRX_ADDONS_STORAGE['msg_registration_success']);
-                setTimeout(function() { 
+                setTimeout(function() {
                     if (rez.redirect_to != '') {
                         location.href = rez.redirect_to;
                     } else {
-                        jQuery('#trx_addons_login_popup .trx_addons_tabs_title_login > a').trigger('click'); 
+                        jQuery('#trx_addons_login_popup .trx_addons_tabs_title_login > a').trigger('click');
                     }
                 }, 3000);
             } else {
@@ -338,15 +338,15 @@ function trx_addons_sc_fullheight_init(e, container) {
 /**
  * Swiper 3.3.1
  * Most modern mobile touch slider and framework with hardware accelerated transitions
- * 
+ *
  * http://www.idangero.us/swiper/
- * 
+ *
  * Copyright 2016, Vladimir Kharlampidi
  * The iDangero.us
  * http://www.idangero.us/
- * 
+ *
  * Licensed under MIT
- * 
+ *
  * Released on: February 7, 2016
  */
 (function () {
@@ -4120,24 +4120,24 @@ else if (typeof define === 'function' && define.amd) {
 /*! Magnific Popup - v1.1.0 - 2016-02-20
 * http://dimsemenov.com/plugins/magnific-popup/
 * Copyright (c) 2016 Dmitry Semenov; */
-;(function (factory) { 
-    if (typeof define === 'function' && define.amd) { 
-        // AMD. Register as an anonymous module. 
-        define(['jquery'], factory); 
-    } else if (typeof exports === 'object') { 
-        // Node/CommonJS 
-        factory(require('jquery')); 
-    } else { 
-        // Browser globals 
-        factory(window.jQuery || window.Zepto); 
-    } 
-}(function($) { 
+;(function (factory) {
+    if (typeof define === 'function' && define.amd) {
+        // AMD. Register as an anonymous module.
+        define(['jquery'], factory);
+    } else if (typeof exports === 'object') {
+        // Node/CommonJS
+        factory(require('jquery'));
+    } else {
+        // Browser globals
+        factory(window.jQuery || window.Zepto);
+    }
+}(function($) {
 
     /*>>core*/
     /**
- * 
+ *
  * Magnific Popup Core JS file
- * 
+ *
  */
 
 
@@ -4159,7 +4159,7 @@ else if (typeof define === 'function' && define.amd) {
 
 
     /**
- * Private vars 
+ * Private vars
  */
     /*jshint -W079 */
     var mfp, // As we have only one instance of MagnificPopup object, we define it locally to not to use 'this'
@@ -4228,7 +4228,7 @@ else if (typeof define === 'function' && define.amd) {
                 v = ['ms','O','Moz','Webkit']; // 'v' for vendor
 
             if( s['transition'] !== undefined ) {
-                return true; 
+                return true;
             }
 
             while( v.length ) {
@@ -4250,7 +4250,7 @@ else if (typeof define === 'function' && define.amd) {
         constructor: MagnificPopup,
 
         /**
-	 * Initializes Magnific Popup plugin. 
+	 * Initializes Magnific Popup plugin.
 	 * This function is triggered only once when $.fn.magnificPopup or $.magnificPopup is executed
 	 */
         init: function() {
@@ -4276,7 +4276,7 @@ else if (typeof define === 'function' && define.amd) {
 
             var i;
 
-            if(data.isObj === false) { 
+            if(data.isObj === false) {
                 // convert jQuery collection to array to avoid conflicts later
                 mfp.items = data.items.toArray();
 
@@ -4304,7 +4304,7 @@ else if (typeof define === 'function' && define.amd) {
                 return;
             }
 
-            mfp.types = []; 
+            mfp.types = [];
             _wrapClasses = '';
             if(data.mainEl && data.mainEl.length) {
                 mfp.ev = data.mainEl.eq(0);
@@ -4323,7 +4323,7 @@ else if (typeof define === 'function' && define.amd) {
 
 
 
-            mfp.st = $.extend(true, {}, $.magnificPopup.defaults, data ); 
+            mfp.st = $.extend(true, {}, $.magnificPopup.defaults, data );
             mfp.fixedContentPos = mfp.st.fixedContentPos === 'auto' ? !mfp.probablyMobile : mfp.st.fixedContentPos;
 
             if(mfp.st.modal) {
@@ -4393,7 +4393,7 @@ else if (typeof define === 'function' && define.amd) {
                     overflowY: mfp.st.overflowY
                 });
             } else {
-                mfp.wrap.css({ 
+                mfp.wrap.css({
                     top: _window.scrollTop(),
                     position: 'absolute'
                 });
@@ -4566,7 +4566,7 @@ else if (typeof define === 'function' && define.amd) {
             if(mfp.st.autoFocusLast && mfp._lastFocusedEl) {
                 $(mfp._lastFocusedEl).focus(); // put tab focus back
             }
-            mfp.currItem = null;	
+            mfp.currItem = null;
             mfp.content = null;
             mfp.currTemplate = null;
             mfp.prevHeight = 0;
@@ -6122,7 +6122,7 @@ function trx_addons_ready_actions(e, container) {
         });
     }
 
-  
+
     // Accordion
     //------------------------------------
     if (container.find('.trx_addons_accordion:not(.inited)').length > 0 && jQuery.ui && jQuery.ui.accordion) {
@@ -6233,7 +6233,7 @@ function trx_addons_ready_actions(e, container) {
                 closeBtnInside: true,
                 fixedContentPos: true,
                 midClick: true,
-                //removalDelay: 500, 
+                //removalDelay: 500,
                 preloader: true,
                 tLoading: TRX_ADDONS_STORAGE['msg_magnific_loading'],
                 gallery:{
@@ -6258,7 +6258,7 @@ function trx_addons_ready_actions(e, container) {
                             else if (openerElement.parent().parent().find('img').length > 0)
                                 openerElement = openerElement.parent().parent().find('img');
                         }
-                        return openerElement; 
+                        return openerElement;
                     }
                 },
                 callbacks: {
@@ -6544,12 +6544,12 @@ function trx_addons_resize_video(cont) {
         "use strict";
         var iframe = jQuery(this).eq(0);
         if (iframe.attr('src').indexOf('soundcloud')>0) return;
-        var ratio = (iframe.data('ratio')!=undefined 
-                     ? iframe.data('ratio').split(':') 
-                     : (iframe.parent().data('ratio')!=undefined 
-                        ? iframe.parent().data('ratio').split(':') 
-                        : (iframe.find('[data-ratio]').length>0 
-                           ? iframe.find('[data-ratio]').data('ratio').split(':') 
+        var ratio = (iframe.data('ratio')!=undefined
+                     ? iframe.data('ratio').split(':')
+                     : (iframe.parent().data('ratio')!=undefined
+                        ? iframe.parent().data('ratio').split(':')
+                        : (iframe.find('[data-ratio]').length>0
+                           ? iframe.find('[data-ratio]').data('ratio').split(':')
                            : [16,9]
                           )
                        )
@@ -6762,8 +6762,8 @@ function trx_addons_sort_listbox(box)  {
                 temp = temp_opts[x];
                 temp_opts[x] = temp_opts[y];
                 temp_opts[y] = temp;
-            }  
-        }  
+            }
+        }
     }
     for(var i=0; i<box.options.length; i++)  {
         box.options[i] = temp_opts[i].clone();
@@ -6997,7 +6997,7 @@ function trx_addons_add_to_url(loc, prm) {
         var parts = '';
         for (var i=0; i<qq.length; i++) {
             var parts = qq[i].split('=');
-            attr[parts[0]] = parts.length>1 ? parts[1] : ''; 
+            attr[parts[0]] = parts.length>1 ? parts[1] : '';
         }
     }
     for (var p in prm) {
@@ -7118,7 +7118,7 @@ function trx_addons_serialize(mixed_val) {
                     var ser = trx_addons_serialize(mixed_val[i]);
                     if (ser)
                         map.push(trx_addons_serialize(idxobj.idx) + ser);
-                }                                      
+                }
                 return "a:" + mixed_val.length + ":{" + map.join("") + "}";
             } else {
                 var class_name = trx_addons_get_class(mixed_val);
@@ -7742,7 +7742,7 @@ function alices_trx_addons_init(e, container) {
 }
 
 
-/*Menu JS*/ 
+/*Menu JS*/
 /* global jQuery:false */
 
 jQuery(document).on('action.ready_trx_addons', function() {
@@ -7797,7 +7797,7 @@ function trx_addons_init_sfmenu(selector) {
             onBeforeShow: function(ul) {
                 "use strict";
                 if (jQuery(this).parents("ul").length > 1){
-                    var w = alices_win.width();  
+                    var w = alices_win.width();
                     var par_offset = jQuery(this).parents("ul").offset().left;
                     var par_width  = jQuery(this).parents("ul").outerWidth();
                     var ul_width   = jQuery(this).outerWidth();
@@ -7853,7 +7853,7 @@ jQuery(document).on('action.ready_trx_addons', function() {
                 'summa': total ? total : 0
             });
         });
-        // Show/Hide cart 
+        // Show/Hide cart
         jQuery('.sc_layouts_cart:not(.inited)')
             .addClass('inited')
             .on('click', '.sc_layouts_cart_icon,.sc_layouts_cart_details', function(e) {
@@ -8034,8 +8034,8 @@ function trx_addons_sc_skills_init(e, container) {
             var init_ok = true;
             var skills = skillsItem.parents('.sc_skills').eq(0);
             var type = skills.data('type');
-            var total = (type=='pie' && skills.hasClass('sc_skills_compact_on')) 
-            ? skillsItem.find('.sc_skills_data .pie') 
+            var total = (type=='pie' && skills.hasClass('sc_skills_compact_on'))
+            ? skillsItem.find('.sc_skills_data .pie')
             : skillsItem.find('.sc_skills_total').eq(0);
             var start = parseInt(total.data('start'), 0);
             var stop = parseInt(total.data('stop'), 0);
@@ -8920,8 +8920,8 @@ function trx_addons_sc_googlemap_add_markers(id) {
                         TRX_ADDONS_STORAGE['googlemap_init_obj'][id].markers[idx].latlng = results[0].geometry.location.toString().replace(/\(\)/g, '');
                     }
                     TRX_ADDONS_STORAGE['googlemap_init_obj'][id].geocoder_request = false;
-                    setTimeout(function() { 
-                        trx_addons_sc_googlemap_add_markers(id); 
+                    setTimeout(function() {
+                        trx_addons_sc_googlemap_add_markers(id);
                     }, 200);
                 } else
                     dcl(TRX_ADDONS_STORAGE['msg_sc_googlemap_geocoder_error'] + ' ' + status);
@@ -8943,7 +8943,7 @@ function trx_addons_sc_googlemap_add_markers(id) {
             // Set Map center
             if (TRX_ADDONS_STORAGE['googlemap_init_obj'][id].opt.center == null) {
                 TRX_ADDONS_STORAGE['googlemap_init_obj'][id].opt.center = markerInit.position;
-                TRX_ADDONS_STORAGE['googlemap_init_obj'][id].map.setCenter(TRX_ADDONS_STORAGE['googlemap_init_obj'][id].opt.center);				
+                TRX_ADDONS_STORAGE['googlemap_init_obj'][id].map.setCenter(TRX_ADDONS_STORAGE['googlemap_init_obj'][id].opt.center);
             }
 
             // Add description window
@@ -9117,7 +9117,7 @@ jQuery(document).on('action.init_shortcodes', function(e, container) {
                 e.preventDefault();
                 return false;
             }
-        });	
+        });
     }
 
     // Detect active TOC item
@@ -9196,7 +9196,7 @@ jQuery(document).on('action.init_shortcodes', function(e, container) {
                 wheel_busy = true;
                 setTimeout(function() { wheel_busy = false; }, trx_addons_browser_is_ios() ? 1200 : 100);
                 trx_addons_document_animate_to(href.substr(pos), function() {
-                    if (TRX_ADDONS_STORAGE['update_location_from_anchor']==1) trx_addons_document_set_location(pos==0 ? loc + href : href); 
+                    if (TRX_ADDONS_STORAGE['update_location_from_anchor']==1) trx_addons_document_set_location(pos==0 ? loc + href : href);
                 });
                 return true;
             }
@@ -9230,11 +9230,11 @@ function trx_addons_build_page_toc() {
         var separator = obj.data('separator');
         toc_count++;
         toc += '<div class="toc_menu_item'+(separator=='yes' ? ' toc_menu_separator' : '')+'" data-id="'+id+'">'
-            + (title || description 
+            + (title || description
                ? '<a href="' + (url ? url : '#'+id) + '" class="toc_menu_description">'
                + (title ? '<span class="toc_menu_description_title">' + title + '</span>' : '')
                + (description ? '<span class="toc_menu_description_text">' + description + '</span>' : '')
-               + '</a>' 
+               + '</a>'
                : '')
             + '<a href="' + (url ? url : '#'+id) + '" class="toc_menu_icon '+icon+'"></a>'
             + '</div>';
@@ -9243,9 +9243,3 @@ function trx_addons_build_page_toc() {
     if (toc_count > 0)
         jQuery('body').append('<div id="toc_menu" class="toc_menu"><div class="toc_menu_inner">'+toc+'</div></div>');
 }
-
-
-
-
-
-

@@ -1,3 +1,19 @@
+.size-box{
+
+  background-color: #ffffff;
+      border: 2px solid #fe7799;
+      color: #fe7799;
+      display: inline-block;
+      font-weight: 700;
+      margin-right: 15px;
+      padding: 7px;
+      vertical-align: top;
+      font-weight: 700;
+    min-width: 22px;
+    text-align: center;
+
+}
+
 ._3iNSyq {
     padding-top: 8px;
 }
