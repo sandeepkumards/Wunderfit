@@ -2419,7 +2419,7 @@ span.speaker::before {
     content: "- ";
 }
 
-.expanderContainer {max-width: 1000px; margin: 0 auto; width: calc(100vw - 340px); }
+.expanderContainer {max-width: 65%; margin: 0 auto; width: calc(100vw - 340px); }
 
 .expanderContainer .column {
     width: 48%!important;
@@ -2795,7 +2795,7 @@ a#PFPopUp_closelink.quicklook_closelink {
    a.mega { padding: 5px 0px; }
 
 .expanderContainer .column {
-    width: 48%;
+    width: 100%;
     display: inline-block;
     vertical-align: top;
     margin-right: 1.7%;
