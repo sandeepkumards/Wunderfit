@@ -1108,7 +1108,7 @@ header > .column_row > .column-equal-height.column-content-middle.column-flex > 
 
 .column_row > .column-equal-height.column-flex > .column_container > .column-inner {
     box-sizing: border-box;
-    padding-left: 15px;
+    padding-left: 10%;
     padding-right: 15px;
     width: 100%;
 }

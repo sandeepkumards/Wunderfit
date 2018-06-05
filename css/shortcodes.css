@@ -7182,7 +7182,7 @@ body.error404 .sc_layouts_hide_on_frontpage {
 .sc_layouts_row_type_narrow {
     font-size: 13px;
     line-height:19px;
-    padding: 0.5em 0;
+    padding: 0 0;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     -ms-box-sizing: border-box;
