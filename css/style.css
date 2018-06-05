@@ -43,6 +43,9 @@ Text Domain: alices
 14. Predefined classes for users
 
 -------------------------------------------------------------- */
+#column-inner{
+  padding-left: 10%;
+}
 @media (max-width: 1439px) {
   #column-inner{
     padding-left: 8%;
@@ -1115,7 +1118,7 @@ header > .column_row > .column-equal-height.column-content-middle.column-flex > 
 
 .column_row > .column-equal-height.column-flex > .column_container > .column-inner {
     box-sizing: border-box;
-    padding-left: 10%;
+    padding-left: 15px;
     padding-right: 15px;
     width: 100%;
 }
