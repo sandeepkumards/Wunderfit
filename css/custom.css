@@ -65,18 +65,21 @@
   background-size: cover;
   text-align: center;
   color: white;
+  padding-top:9%;
 }
 #hero3 {
   background: url('../images/shutterstock.jpg') 50% 0 repeat fixed;
   background-size: cover;
   text-align: center;
   color: white;
+  padding-top:9%;
 }
 #hero4 {
   background: url('../images/shutterstock_2.jpg') 50% 0 repeat fixed;
   background-size: cover;
   text-align: center;
   color: white;
+  padding-top:9%;
 }
 #hero5 {
   background: url('../images/logo-red.jpg') 50% 0 repeat fixed;
@@ -85,6 +88,7 @@
   color: white;
   font-size: 20px;
   font-family: -webkit-pictograph;
+  padding-top:9%;
 }
 .fixed {
     width: 100vw;

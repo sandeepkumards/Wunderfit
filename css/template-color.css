@@ -4751,7 +4751,7 @@ blockquote a {
 
 .scheme_dark .sc_layouts_row_delimiter,
 .scheme_dark.sc_layouts_row_delimiter {
-    border-color: #2b2e41;
+  /*  border-color: #2b2e41;*/
 }
 
 .scheme_dark .sc_layouts_item_icon {
