@@ -52,11 +52,11 @@ Text Domain: alices
   right: 0;
 }
 #column-inner{
-  padding-left: 10%;
+  padding-left: 5%;
 }
 @media (max-width: 1439px) {
   #column-inner{
-    padding-left: 8%;
+    padding-left: 3%;
   }
   #header-font{
     font-size: 66%;
