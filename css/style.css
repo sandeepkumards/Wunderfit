@@ -43,6 +43,27 @@ Text Domain: alices
 14. Predefined classes for users
 
 -------------------------------------------------------------- */
+.feature-image {
+	display: table;
+	width: 100%;
+}
+
+.feature-image-default {
+	background: url('../img/stuff-feature.jpg') no-repeat;
+	background-size: cover;
+}
+
+.feature-image-default-alt {
+	background: url('../images/hipster-stuff.jpg') no-repeat;
+	background-size: cover;
+}
+
+.feature-image h1 {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	color: white;
+}
 #top-header{
   box-shadow: 1px 2px black;
 }
@@ -92,6 +113,7 @@ html, body {
 	margin: 0;
 	padding: 0;
 	width: 100%;
+  background: url('../images/tile.jpg') top left repeat;
 }
 html {
 	height: 100%;
@@ -1367,7 +1389,7 @@ section.margin_on > .content_container > .column_row {
 .container,
 .content_wrap,
 .content_container {
-	width:1170px;
+	width:1000px;
 	margin:0 auto;
 }
 

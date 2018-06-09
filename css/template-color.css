@@ -718,7 +718,7 @@ blockquote a {
 .scheme_default #page_preloader,
 .scheme_default.header_position_under .page_content_wrap,
 .scheme_default .page_wrap {
-    background-color: #ffffff;
+  /*  background-color: #ffffff;*/
 }
 
 .scheme_default .preloader_wrap>div {

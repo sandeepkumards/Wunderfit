@@ -9,10 +9,10 @@ Blue Gray:  #3e4249
 /* ==== GENERAL ==== */
 
 body {
-	margin-top: 50px;
+	margin-top: 0px;
 	font-family: 'proxima-nova', 'Raleway', Helvetica, sans-serif;
 	font-size: 16px;
-	background: url('../img/tile.jpg') top left repeat;
+	background: url('../../images/tile.jpg') top left repeat;
 }
 
 /* ==== GLOBAL ==== */
@@ -367,7 +367,7 @@ section.main-content {
 }
 
 .feature-image-default-alt {
-	background: url('../img/hipster-stuff.jpg') no-repeat;
+	background: url('../../images/hipster-stuff.jpg') no-repeat;
 	background-size: cover;
 }
 
