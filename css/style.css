@@ -56,10 +56,10 @@ Text Domain: alices
 }
 @media (max-width: 1439px) {
   #column-inner{
-    padding-left: 3%;
+    padding-left: 1%;
   }
   #header-font{
-    font-size: 66%;
+    font-size: 64%;
   }
 }
 /* 0. Google Fonts */
