@@ -7159,3 +7159,10 @@ border-top-style: solid!important;
 border-bottom-color: #ff779a!important;
 border-bottom-style: solid!important;
 }
+
+#video-features {
+	background: #3e4249;
+	color: white;
+	text-align: center;
+  padding-bottom: 30px;
+}
