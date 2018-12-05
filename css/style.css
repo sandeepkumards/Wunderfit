@@ -58,9 +58,6 @@ Text Domain: alices
   #column-inner{
     padding-left: 1%;
   }
-  #header-font{
-    font-size: 64%;
-  }
 }
 /* 0. Google Fonts */
 @import url('https://fonts.googleapis.com/css?family=Droid+Serif:400,400i,700,700i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Playfair+Display:400,400i,700,700i|Poppins:300,400,500,600,700|Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&subset=cyrillic');
@@ -1946,11 +1943,13 @@ body.mobile_layout.menu_style_right .menu_side_wrap .menu_side_button:hover { le
 	position:absolute;
 	z-index: 1;
 	left: 0;
-	top: 48%;
+	/*top: 48%;*/
 	width: 100%;
 	height: auto;
-	max-height: 44%;
-	padding-right:20px;	/* Hide scrollbar */
+	max-height: 100%;
+	/* 	padding-right:20px;Hide scrollbar */
+  font-size:10px;
+  padding-top:100%;
 	overflow-y: scroll;
 	-webkit-transform:translateY(-50%);
 	   -moz-transform:translateY(-50%);
