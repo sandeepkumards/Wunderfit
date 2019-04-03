@@ -59,6 +59,14 @@
 	.sc_action_item_event.with_image .sc_action_item_inner {
 		width: 60%;
 	}
+
+	.corrosal-height{
+		height:450px!important;
+	}
+	.socks-img-height{
+		height:808px;
+	}
+	
 }
 
 @media (min-width: 990px) and (max-width: 1440px) {
