@@ -95,7 +95,11 @@
 		z-index:1;position:absolute;width:22%;top:1%;
 	}
 	.launch-header{
-		padding-top: 14%;
+		padding-top: 12%;
+	}
+	#header-font{
+		font-size: 9px;
+		padding-left: 51px;
 	}
 
 }
