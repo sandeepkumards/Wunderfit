@@ -66,6 +66,9 @@
 	.socks-img-height{
 		height:808px;
 	}
+	.launch-logo{
+		z-index:1;position:absolute;width:30%;
+	}
 	
 }
 
@@ -78,7 +81,17 @@
     }
     .myportfolio-container #esg-grid-3-1 .esg-center.eg-theme-element-3.esg-flipup {
         padding: 5px 22px 5px 22px;
-    }
+	}
+	.corrosal-height{
+		height:455px!important;
+	}
+	.socks-img-height{
+		height:688px;
+	}
+	.launch-logo{
+		z-index:1;position:absolute;width:22%;top:1%;
+	}
+
 }
 
 
