@@ -15,7 +15,7 @@ parse_str($_POST['data'], $post_data);
 		$user_msg =stripslashes(strip_tags(trim($post_data['message'])));
 		$mobile =stripslashes(strip_tags(trim($post_data['mobile'])));
 
-		if (trim($contact_email)!='') {
+		if (trim($contact_email)!='' || trim($mobile)!='') {
 			$subj = 'Enquiry form via wunderfit website';
 			$msg = $subj." \r\nName: $user_name \r\nE-mail: $user_email \r\nContact Number: $mobile \r\nMessage: $user_msg";
 

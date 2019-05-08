@@ -7566,7 +7566,7 @@ function sc_form_validate(form){
     var error = trx_addons_form_validate(form, {
         rules: [
             {
-                field: "name",
+                field: "username",
                 min_length: { value: 1,	 message: TRX_ADDONS_STORAGE['msg_field_name_empty'] },
             },
             {
@@ -7576,6 +7576,10 @@ function sc_form_validate(form){
             },
             {
                 field: "message",
+                min_length: { value: 1,  message: TRX_ADDONS_STORAGE['msg_field_text_empty'] },
+            },
+            {
+                field: "mobile",
                 min_length: { value: 1,  message: TRX_ADDONS_STORAGE['msg_field_text_empty'] },
             }
         ]
